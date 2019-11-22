@@ -1,0 +1,55 @@
+body {
+  background-color: #fcfcfc;
+}
+
+.main-padding {
+  padding: 70px 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.table td, .table th, 
+.table thead th {
+  text-align: center;
+}
+
+.table {
+  background-color: #343a40!important;
+  color: #FFF !important;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-inp {
+  background-color: #343a40!important;
+  color: #FFF !important;
+}
+
+.search-inp:focus {
+  outline: none;
+  border-color: #FFF !important;
+
+}
+
+.search-inp::placeholder {
+  color: #FFF;
+}
+
+.main-list {
+  margin: 0 15px;
+  position: relative;
+  padding: 10px;
+  background-color: #343a40!important;
+  color: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.main-list li {
+  padding: 5px 0;
+}
+
+

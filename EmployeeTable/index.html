@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Employee table</title>
+ 
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" />
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--MediaQuery Stylesheet Css -->
+    <link rel="stylesheet" href="css/media.css" />
+    <!--Animate-->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!--Hover Stylesheet Css -->
+    <link rel="stylesheet" href="css/hover.css" />
+
+    <!--BootStrap Stylesheet Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  
+    <!--
+      <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    -->
+    <!--My Css-->
+    <link rel="stylesheet" href="css/homepages.css" />
+    <!-- <link rel="stylesheet" href="css/homepages-rtl.css" />-->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Droid+Sans:700"
+    />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Raleway:900"
+    />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cairo"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-5.11.2-web/css/all.min.css"
+    />
+  </head>
+
+  
+
+
+  <body class="wow fadeIn" data-wow-duration="2s" data-wow-offset="200">
+    <section class="wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="main-padding">
+        <div class="container">
+          <h2 class="text-center">Employee Table</h2>
+        </div>
+      </section>
+      
+
+      <section class="users">
+
+        <div class="container py-4">
+          <input id="searchInput" class="form-control search-inp" type="text" placeholder="Search"/>
+        
+          <div id="searchRow" class="row">
+
+          </div>
+        </div>
+
+        <section class="main-employees main-padding">
+          <div class="container">
+
+            <div class="main-form my-4">
+              <div class="form-group">
+                <input id="userInput" class="form-control clear" type="text" placeholder="Employee Name" />
+              </div>
+              <div class="form-group">
+                <input id="ageInput" class="form-control clear" type="text" placeholder="Age" />
+              </div>
+              <div class="form-group">
+                <input id="genderInput" class="form-control clear" type="text" placeholder="Gender" />
+              </div>
+              <div class="form-group">
+                <input id="positionInput" class="form-control clear" type="text" placeholder="Position" />
+              </div>
+              <div class="form-group">
+                <input id="salaryInput" class="form-control clear" type="text" placeholder="Salary" />
+              </div>
+              <button id="submitBtn" class="btn btn-primary float-right">Add Employee</button>
+              <div class="clearfix"></div>
+            </div><!--mainForm-->
+  
+            <table class="table m-auto my-4 table-dark table-striped table-dark">
+              <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Update Employee</th>
+                <th>Delete Employee</th>
+              </thead>
+              <tbody id="tableBody">
+  
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+    </section>
+
+
+    <!--Popper Script-->
+    <script src="js/popper.min.js"></script>
+    <!--jQuery Script-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--BootStap Script-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--[if it IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+   
+
+    <!--jQuery FitText And Vids Script-->
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+  
+    <!--WOW jS Script-->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <!-- My js file-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
